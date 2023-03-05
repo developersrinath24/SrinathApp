@@ -1,38 +1,120 @@
+@font-face {
+  font-family: "ChildsHand";
+  src: url("./assets/fonts/ChildsHand.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "ChildsHand", Poppins;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+div#root {
+  height: 100vh;
+}
 .App {
-  text-align: center;
+  display: flex;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sidebar {
+  width: 10%;
+  height: 90vh;
+  padding-top: 10vh;
+  /* border-right: 2px solid red; */
+  background: linear-gradient(
+      to right,
+      red 0,
+      red 33.3%,
+      white 33.3%,
+      white 66.6%,
+      red 66.6%,
+      red
+    )
+    no-repeat;
+  background-size: 3px 100%;
+  background-position: right;
+  padding-right: 3px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navlinks {
   display: flex;
   flex-direction: column;
+  /* border-top: 2px solid red; */
+  background: linear-gradient(
+      to bottom,
+      red 0,
+      red 33.3%,
+      white 33.3%,
+      white 66.6%,
+      red 66.6%,
+      red
+    )
+    no-repeat;
+  background-size: 100% 3px;
+  padding-top: 18px;
+  align-items: end;
+  padding-right: 10px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 50px;
+}
+.main {
+  width: 90%;
+  height: 90vh;
+  padding-top: 10vh;
+}
+.container {
+  height: 100%;
+  background: linear-gradient(
+      to bottom,
+      red 0,
+      red 33.3%,
+      white 33.3%,
+      white 66.6%,
+      red 66.6%,
+      red
+    )
+    no-repeat;
+  background-size: 100% 3px;
+}
+.wrapper {
+  background-image: repeating-linear-gradient(white 0px, white 24px, teal 25px);
+  height: 100%;
+}
+.today {
+  position: absolute;
+  right: 5%;
+  top: 5vh;
+  font-size: 28px;
+}
+span.red-dash {
+  margin: 0px 5px;
+  color: red;
+  font-family: auto;
+  font-size: 22px;
+}
+/* styling text content */
+div#home {
+  display: flex;
+  height: 100%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: end;
+  padding-right: 10%;
 }
-
-.App-link {
-  color: #61dafb;
+.heading h1 {
+  font-size: 182px;
+  line-height: 132px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.subheading h3 {
+  font-size: 72px;
+  text-align: end;
 }
