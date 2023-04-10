@@ -1,4 +1,5 @@
 import React from "react";
+import github from "../../assets/images/social/github-logo.png";
 
 const Home = () => {
   return (
@@ -9,6 +10,12 @@ const Home = () => {
         </div>
         <div className="subheading">
           <h3>Web Developer</h3>
+        </div>
+        <div className="home-btn">
+          <a className="github-btn" href="github.com">
+            <img src={github} width="25" />
+            github
+          </a>
         </div>
       </div>
     </div>

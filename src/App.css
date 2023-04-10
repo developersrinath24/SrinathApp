@@ -118,3 +118,250 @@ div#home {
   font-size: 72px;
   text-align: end;
 }
+a.github-btn {
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 40px;
+  line-height: 54px;
+  letter-spacing: 2px;
+  border: 2px solid #000;
+}
+a.github-btn:hover {
+  background: #fff;
+  color: #000;
+}
+a.github-btn img {
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-top: -5px;
+}
+.home-btn {
+  text-align: right;
+}
+.about {
+  display: flex;
+  justify-content: end;
+  padding-right: 10%;
+  padding-top: 50px;
+  width: 80%;
+  margin: 0 auto;
+}
+div.about-text {
+  padding-top: 6px;
+  font-size: 22px;
+  line-height: 25px;
+}
+h3.about-hi {
+  font-size: 65px;
+  line-height: 50px;
+}
+.speeling-mistake {
+  display: inline;
+  position: relative;
+  text-decoration: line-through;
+}
+.speeling-mistake:before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  top: 55%;
+  background: #000;
+  transform: rotate(-4deg);
+}
+.skills-text {
+  width: 70px;
+  height: 70px;
+  background: #000;
+  border-radius: 40px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  font-size: 22px;
+  letter-spacing: 3px;
+  border: 2px solid #000;
+}
+.skills-text:hover {
+  background: transparent;
+  color: #000;
+}
+.skills {
+  display: flex;
+  /* height: 100%; */
+  /* align-items: center; */
+  text-align: center;
+  justify-content: end;
+  padding-right: 10%;
+  padding-top: 55px;
+}
+.skills-main {
+  width: 50%;
+  text-align: left;
+  padding-right: 5%;
+  font-size: 24px;
+  line-height: 25px;
+}
+.skills-wrapper {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  top: -40px;
+}
+.skills-list-1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skills-list-2 {
+  width: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skill-1 {
+  position: absolute;
+  height: 40px;
+}
+.skill-2 {
+  position: absolute;
+  height: 40px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+.contact-text h2 {
+  font-size: 100px;
+  margin: 0px;
+  color: #000;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+.gmail-btn {
+  padding: 5px 25px;
+  background: #000;
+  border-radius: 25px;
+  margin: 20px 0px;
+  border: 2px solid #000;
+}
+.gmail-btn:hover {
+  background: #fff;
+}
+.gmail-btn a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  letter-spacing: 1.5px;
+}
+.gmail-btn:hover a {
+  color: #000;
+}
+.gmail-btn img {
+  margin-right: 5%;
+}
+.social-media {
+  width: 65%;
+  margin-top: 2%;
+}
+.social-media ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+li.sm-icon {
+  border-radius: 50%;
+}
+li.sm-icon a {
+  display: flex;
+  align-items: end;
+  height: 100%;
+}
+li.sm-icon img {
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 50%;
+}
+p.icon-text {
+  background: #000;
+  border-radius: 50px;
+  color: #fff;
+  text-align: center;
+  padding: 2px 15px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+li.sm-icon:hover p.icon-text {
+  opacity: 1;
+}
+
+.container-panel {
+  height: 75%;
+  padding-top: 10%;
+}
+
+.project:hover {
+  transform: scale(1.1);
+}
+.project {
+  width: 90%;
+  margin-bottom: 20px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 1px solid grey;
+  background: #fff;
+  transition: transform 0.2s ease-in-out;
+}
+.project img {
+  max-width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.project img {
+  max-width: 100%;
+}
+.project-details {
+  padding: 10px;
+  text-align: left;
+}
+.project-details h3 {
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+p.project-desc {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+span.tech-head {
+  font-weight: bold;
+  margin-right: 5px;
+  letter-spacing: 1px;
+}
